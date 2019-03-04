@@ -41,7 +41,7 @@ class FilmReleaseBox extends Component {
             <h1>Upcoming Film Releases for the UK</h1>
             <FilmReleaseList data={this.state.data} />
             <hr></hr>
-            <h2><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a></h2>
+            <h2><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a></h2>
             </div>
         )
     }
